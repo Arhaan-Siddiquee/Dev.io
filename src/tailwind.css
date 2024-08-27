@@ -1,9 +1,8 @@
-/* These styles will all be purged */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* These styles will be purged */
+
 
 @layer base {
 }
@@ -11,9 +10,3 @@
 }
 @layer utilities {
 }
-
-/* These styles will not be purged */
-
-/* * {
-  @apply ring-1 ring-red-500;
-} */
